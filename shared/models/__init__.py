@@ -1,0 +1,1 @@
+from shared.models.GNNClassifier import GNNClassifier
