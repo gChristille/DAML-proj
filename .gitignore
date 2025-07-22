@@ -22,3 +22,5 @@ wheels/
 *.txt
 
 _04_mnist_digits/data/MNIST/raw
+
+readme.pdf
