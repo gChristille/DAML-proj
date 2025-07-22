@@ -1,6 +1,8 @@
 # Project overview
 
-This project is part of the final exam of Gioele Christille for the course "Data Analysis in experimental physics with Machine Learning" taught by Professor Paolo Meridiani at University of Turin. The project aims at exploring the viability of GNNs in image recognition by taking advantage of image segmentation algorithms to extract superpixels that work as nodes in the graphs. The project is comprised of many folders but only the ones numbered 03-05 will be presented in the final presentation.
+This project is part of the final exam of Gioele Christille for the course "Data Analysis in experimental physics with Machine Learning" taught by Professor Paolo Meridiani at University of Turin. 
+
+Goal: The project aims at exploring the viability of GNNs in image recognition by taking advantage of image segmentation algorithms to extract superpixels that work as nodes in the graphs. The project is comprised of many folders but only the ones numbered 03-05 will be presented in the final presentation.
 
 To run folders 00 and 03-05, download from [here](https://www.kaggle.com/datasets/mohamedhanyyy/chest-ctscan-images) the dataset and run the notebooks in order.
 
