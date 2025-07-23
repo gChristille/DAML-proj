@@ -1,8 +1,6 @@
 # Project overview
 
-This project is part of the final exam of Gioele Christille for the course "Data Analysis in experimental physics with Machine Learning" taught by Professor Paolo Meridiani at University of Turin. 
-
-Goal: The project aims at exploring the viability of GNNs in image recognition by taking advantage of image segmentation algorithms to extract superpixels that work as nodes in the graphs. The project is comprised of many folders but only the ones numbered 03-05 will be presented in the final presentation. Folders 01 and 02 were mainly used to understand how GNNs work, but they do contain some optimizations (bayesian opt for hyperparams and message passing module comparisons) that haven't been used anywhere else.
+This project is part of the final exam of Gioele Christille for the course "Data Analysis in experimental physics with Machine Learning" taught by Professor Paolo Meridiani at University of Turin. The project aims at exploring the viability of GNNs in image recognition by taking advantage of image segmentation algorithms to extract superpixels that work as nodes in the graphs. The project is comprised of many folders but only the ones numbered 03-05 will be presented in the final presentation.
 
 To run folders 00 and 03-05, download from [here](https://www.kaggle.com/datasets/mohamedhanyyy/chest-ctscan-images) the dataset and run the notebooks in order.
 
@@ -38,10 +36,10 @@ Uses other datasets that are notoriously easier to manage for GNNs. The notebook
 
 ## Folder 03
 
-This folder includes the usage of resnet for CT image classification to have a CNN baseline.Partly based on folder 00. The notebooks:
+This folder includes the usage of mobilenet for CT image classification to have a CNN baseline. Partly based on folder 00, but with a different model. I changed the model since, according to pytorch, this one is faster without a great loss of accuracy. The notebooks:
 
 - 00: visualize dataset
-- 01: use resnet to extract features that are then saved as tensors
+- 01: use mobilenet to extract features that are then saved as tensors
 - 02: train MLP and see that it overfits
 - 03: use PCA to reduce the dimensionality from 960
 
